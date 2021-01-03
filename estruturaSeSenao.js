@@ -37,7 +37,7 @@ escreva("Resultado é:", resultado)
 
 var valor01, valor02, resultado, operacao
 
-function AcaoBotao(params) {
+function AcaoBotao() {
 valor01 = prompt("Digite o primeiro valor:")
 operacao = prompt("Digite a operacao: + * - /...:")
 valor02 = prompt("Digite o primeiro valor:")
@@ -47,4 +47,5 @@ else if (operacao == "-"){resultado = parseInt( valor01 ) - parseInt( valor02 )}
 else if (operacao == "*"){resultado = parseInt( valor01 ) * parseInt( valor02 )}
 else if (operacao == "/"){resultado = parseInt( valor01 ) / parseInt( valor02 )}
 
-document.getElementById("PARAGRAFO").innerText = resultado}
+document.getElementById("PARAGRAFO").innerText = resultado;
+}
